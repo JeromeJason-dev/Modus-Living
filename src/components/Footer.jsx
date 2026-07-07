@@ -19,9 +19,6 @@ function Footer() {
             <Link to={"/login"}>Login</Link>
           </li>
           <li className="hover:text-blue-400">
-            <Link to={"/register"}>Register</Link>
-          </li>
-          <li className="hover:text-blue-400">
             <Link to={"/products"}>Products</Link>
           </li>
         </ul>
