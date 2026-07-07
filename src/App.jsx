@@ -8,7 +8,6 @@ import Cart from "@/pages/Cart";
 import Checkout from "@/pages/Checkout";
 import Login from "@/pages/Login"; 
 import { Register } from "@/pages/Register";
-import { Contact }  from "@/pages/Contact";
 
 export default function App() {
   return (
@@ -23,7 +22,6 @@ export default function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/contact" element={<Contact />} />
           <Route
             path="/checkout"
             element={
