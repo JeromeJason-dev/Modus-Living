@@ -91,10 +91,6 @@ export default function Login() {
           {submitting ? "Logging in…" : "Log in"}
         </Button>
       </form>
-
-      <p className="mt-6 text-center text-sm text-ink-soft">
-        Don't have an account <Link to="/register" className="text-clay hover:underline">Register</Link>
-      </p>
       <p className="mt-4 text-center text-sm text-ink-soft">
         Just here to browse? <Link to="/products" className="text-clay hover:underline">Continue shopping</Link>
       </p>

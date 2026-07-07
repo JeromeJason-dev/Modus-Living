@@ -7,7 +7,7 @@ import ProductDetails from "@/pages/ProductDetails";
 import Cart from "@/pages/Cart";
 import Checkout from "@/pages/Checkout";
 import Login from "@/pages/Login"; 
-import { Register } from "@/pages/Register";
+import Register  from "@/pages/Register";
 
 export default function App() {
   return (
